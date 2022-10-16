@@ -1,0 +1,49 @@
+header{
+    display: flex;
+    margin-top: 18px;
+    justify-content: center;
+}
+.row{
+    justify-content: space-between;  
+}
+menu{
+    ul{
+        display: flex;
+        gap: 30px;
+    }
+    li{
+        list-style-type: none;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 24px;
+        letter-spacing: 0px;
+        text-align: left;
+        text-transform: uppercase;
+        color: #000000;
+        cursor: pointer;
+    }
+}
+.book-now{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 28px;
+    color:#ffff ;
+    width: 200px;
+    border: none;
+    height: 60px;
+    background-color: #5B6460;
+    text-align: center;   
+    text-transform: uppercase;
+    cursor: pointer;
+    &:hover{
+        background-color:#808E88;
+        ;
+    }
+    &:active{
+        background-color:#cbd4d0;
+        ;
+    }
+}
+

@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+@import "./header-slider.scss";
+@import "./slider.scss";
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Open+Sans:wght@300;400&family=Quicksand:wght@300;500&display=swap');
+// font-family: 'Mulish', sans-serif;
+// font-family: 'Open Sans', sans-serif;
+// font-family: 'Quicksand', sans-serif;
+body{
+    margin: 0;
+    min-width: 1116px;
+}
+.container{
+    width: 1400px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    align-items: center;   
+}
