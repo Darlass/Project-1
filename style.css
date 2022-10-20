@@ -5,7 +5,6 @@
 
 header {
   display: flex;
-  margin-top: 18px;
   justify-content: center;
 }
 
@@ -51,12 +50,17 @@ menu li {
   background-color: #cbd4d0;
 }
 
-.row {
+.slider {
+  height: 700px;
+}
+.slider .row {
   flex-wrap: wrap;
+  justify-content: flex-end;
 }
 
 .book-price {
   margin-left: 148px;
+  margin-bottom: 120px;
   position: relative;
   top: -70px;
 }
@@ -71,29 +75,26 @@ menu li {
 .book-price .bth-price {
   position: relative;
   left: -4px;
-  top: -31px;
+  top: -24px;
   height: 100px;
   width: 120px;
   background-color: #E9ECE0;
   font-family: "Quicksand", sans-serif;
   font-size: 12px;
   font-weight: 300;
-  line-height: 40px;
   border: none;
+}
+.book-price .bth-price .flex-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .book-price .bth-price .price {
   font-family: "Quicksand", sans-serif;
   font-size: 22px;
   font-weight: 500;
   line-height: 28px;
-  letter-spacing: 0px;
   text-align: center;
-}
-.book-price .bth-price .word-1 {
-  padding-left: 20px;
-}
-.book-price .bth-price .word-3 {
-  padding-left: 50px;
 }
 
 .slider {
@@ -112,10 +113,94 @@ menu li {
   font-weight: 400;
   line-height: 28px;
 }
-.slider .decoration {
-  height: 401px;
-  width: 10px;
-  background: rgb(255, 47, 47);
+
+.the-cabins {
+  margin-bottom: 120px;
+}
+
+.thecabins-text {
+  align-self: flex-end;
+  padding-left: 145px;
+  width: 40%;
+}
+.thecabins-text h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 40px;
+}
+.thecabins-text p {
+  width: 470px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 30px;
+}
+.thecabins-text button {
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  color: #5B6460;
+  border-bottom: 1px solid #5B6460;
+}
+.thecabins-text button:active {
+  background-color: #5B6460;
+  color: white;
+}
+
+.thecabins-img {
+  display: flex;
+}
+
+.photos-work {
+  margin-bottom: 120px;
+}
+.photos-work .row {
+  justify-content: center;
+}
+.photos-work img {
+  margin-right: 30px;
+}
+
+.the-forest {
+  background-color: rgb(233, 236, 224);
+}
+.the-forest .the-forest-info {
+  padding-right: 150px;
+  padding-left: 130px;
+  justify-content: center;
+  color: #5B6460;
+}
+.the-forest .the-forest-info h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 40px;
+}
+.the-forest .the-forest-info p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 30px;
+}
+.the-forest .the-forest-info button {
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 600;
+  color: #5B6460;
+  border-bottom: 1px solid #5B6460;
+}
+.the-forest .the-forest-info button:active {
+  background-color: #5B6460;
+  color: white;
 }
 
 body {
