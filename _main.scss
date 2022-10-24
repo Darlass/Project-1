@@ -1,11 +1,12 @@
 //the-cabins
 .the-cabins{
     margin-bottom: 120px;
+    display: flex;
+    align-items: flex-end;
 }
 .thecabins-text{
-    align-self: flex-end;
     padding-left: 145px;
-    width: 40%;
+    color: #5B6460;
     h1{
         font-family: 'Open Sans', sans-serif;
         font-size: 40px;
@@ -38,14 +39,16 @@
 }
 .thecabins-img{
     display: flex;
+    img{
+        width: 693px;
+        height: 438px;  
+    }
 } 
 //photos-block
 .photos-work{
     .row{
         justify-content: center;
-    }
-    img{
-        margin-right: 30px;
+        gap:60px
     }
     margin-bottom: 120px;   
 }
@@ -86,6 +89,72 @@
         }
     }
 }
-
-
-
+//facilities
+.facilities{
+    padding-top: 120px;
+    background-color: #5B6460;
+    color: white;
+    display: flex; 
+    .row{
+    justify-content: center;
+    }
+    h1{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 40px;
+        font-weight: 300;
+        line-height: 40px;
+        text-align: center;
+        margin-bottom: 80px;
+    }
+    .facilities-icons{
+        width: 830px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 80px 120px;
+        margin-bottom: 120px;
+    }
+    p{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: center;
+    }
+    .icon{
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+//more-about-us
+.photos{
+    display: flex;
+    .img1{
+        width: 50%;
+        position: relative;
+    }
+    .img2{
+        width: 50%;
+    }
+}
+.circle-more-us{
+    position: absolute;
+    left: 45%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 157px;
+    height: 157px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    h1{
+        color: black;
+        font-family:'Quicksand', sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+        text-align: center;
+        align-self: center;
+    }
+}
