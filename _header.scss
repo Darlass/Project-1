@@ -45,4 +45,82 @@ menu{
         ;
     }
 }
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 20;
+}
+.modal-block {
+    width: 673px;
+    height: 66px;
+    margin: 100px auto;
+    background-color: white;
+    form{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin-left: 20px;
+        input{
+            width: 115px;
+            height: 20px;
+            border:none;
+            margin-bottom: 15px;
+        }
+        #airdatepicker3{
+            width: 10px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 18px;
+            &:focus{
+                border: none;
+            }
+        }
+        & input::placeholder{
+            font-family: 'Open Sans', sans-serif;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 18px;
+        }
+        & input:first-child{
+            margin-left: 20px;
+        }
+        h3{
+            font-family: 'Quicksand', sans-serif;
+            font-size: 12px;
+            font-weight: 500;
+            line-height: 16px;
+            align-self: baseline;
+            margin-top: 0;
+            margin-bottom: 5px;
+        }
+    }
+    button:last-child{
+        width: 208px;
+        height: 66px;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 28px;
+        color:#ffff ;
+        border: none;
+        background-color: #5B6460;
+        text-align: center;   
+        text-transform: uppercase;
+        cursor: pointer;
+        &:hover{
+            background-color:#808E88;
+            ;
+        }
+        &:active{
+            background-color:#cbd4d0;
+            ;
+        }
+    }
+}
+
 
